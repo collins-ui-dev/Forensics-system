@@ -11,5 +11,5 @@ source venv/bin/activate
 echo "Installing dependencies..."
 pip install -r requirements.txt -q
 
-echo "Starting Flask server on https://backend-8ipo.onrender.com ..."
+echo "Starting Flask server on http://localhost:5000 ..."
 python app.py
